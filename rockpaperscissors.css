@@ -1,0 +1,90 @@
+* {
+	font-family: fantasy;
+	font-style: bold;
+	text-shadow: 0.5px 0.5px black;
+}
+
+body {
+	background: rgb(211, 218, 217)
+}
+
+
+
+#firstContent {
+	background-color: rgb(172, 181, 180);
+	width:700px;
+	height: 250px;
+	margin:auto;
+	text-align:center;
+	border-radius: 10px;
+	color: black;
+	font-size: 25px;
+	border-bottom: 5px solid black;
+	border-right: 5px solid red;
+	text-align: center;
+	box-shadow: 5px 5px 5px 5px black;
+}
+
+#secondContent {
+
+	background-color: black;
+	border-radius: 10px;
+	width: 550px;
+	height: 510px;
+	color: white;
+	margin: auto;
+	margin-top: 15px;
+	position: relative;
+	left: 105px;
+	display:grid;
+	grid-template-rows: 215px;
+	box-shadow: 5px 5px 5px 5px black;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+
+}
+
+p {
+	font-size: 40px;
+	margin: auto;
+	margin-top: 10px;
+	display:grid;
+	justify-content: center;
+	align-items: center;
+}
+
+input {
+	margin-right: 10px;
+}
+#reloadbutton {
+	visibility: hidden;
+}
+
+#buttonreload {
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+#rock, #paper, #scissors {
+	border-radius: 100%;
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+	transform: scale(1.05);
+}
+
+#scoreboard {
+	display: grid;
+	float: right;
+	box-shadow: 2px 2px 2px 2px black;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+	border-radius: 10px;
+	height: 300px;
+	padding: 10px;
+	align-items: center;
+}
+
