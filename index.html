@@ -27,14 +27,18 @@
 	<p id="computerPick"></p>
 </div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script type="text/javascript">
+	
+		<script type="text/javascript">
 
-		document.querySelector('#reloadButton').addEventListener('click', function() {
-			$('#secondContent').replaceWith('#secondContent');
-		},true)
+		$(document).ready(function() {
+  $(document).on('click', '#reloadButton', function(event) {
+    event.preventDefault();
+    $("#secondContent").replaceWith($("#secondContent"));
+
+  });
+});
 
 	</script>
-	
 
 <script type="text/javascript" src="rockpaperscissors.js"></script>
 </body>
