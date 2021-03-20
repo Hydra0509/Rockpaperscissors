@@ -10,9 +10,14 @@ let reloadButton = document.getElementById('reloadButton')
 
 
 function hide() {
-	document.getElementById('buttons').style.display = 'none'
+	document.getElementById('buttons').style.visibility = 'hidden'
 	document.getElementById('reloadButton').style.visibility = 'visible'
 }
+
+function show() {
+	document.getElementById('buttons').style.visibility = 'visible'
+	document.getElementById('reloadButton').style.visibility = 'hidden'
+	
 
 function showComputersPick() {
 	computerPick.innerHTML = 'The computer picked ' + randomNumber;
