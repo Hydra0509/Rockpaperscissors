@@ -17,7 +17,7 @@ function hide() {
 function show() {
 	document.getElementById('buttons').style.visibility = 'visible'
 	document.getElementById('reloadButton').style.visibility = 'hidden'
-}
+} 
 	
 
 function showComputersPick() {
