@@ -88,3 +88,6 @@ input {
 	align-items: center;
 }
 
+.hideShow {
+
+	visibility: visible;
