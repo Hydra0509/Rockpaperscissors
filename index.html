@@ -30,8 +30,7 @@
 	
 	<script type="text/javascript">
 	function reloadDiv() {
-
-$('#secondContent').html(' #secondContent')
+$('#secondContent').load(document.URL +  ' #secondContent');
 	}
 
 	document.getElementById('reloadButton').addEventListener("click",reloadDiv);
