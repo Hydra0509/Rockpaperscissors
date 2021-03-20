@@ -7,19 +7,14 @@ let output = document.getElementById('output')
 let userScore = document.getElementById('userScore')
 let cpuScore = document.getElementById('cpuScore')
 let reloadButton = document.getElementById('reloadButton')
+let pickButtons = document.getElementById('buttons')
 
 
 function hide() {
-	document.getElementById('buttons').style.visibility = 'hidden'
-	document.getElementById('reloadButton').style.visibility = 'visible'
+	pickButtons.classList.toggle = 'hideShow'
+	reloadButton.classList.toggle = 'hideShow'
 }
 
-function show() {
-	document.getElementById('buttons').style.visibility = 'visible'
-	document.getElementById('reloadButton').style.visibility = 'hidden'
-} 
-	
-document.getElementById('buttons').addEventListener("click", show)
 
 
 function showComputersPick() {
