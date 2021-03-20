@@ -19,6 +19,8 @@ function show() {
 	document.getElementById('reloadButton').style.visibility = 'hidden'
 } 
 	
+document.getElementById('buttons').addEventListener("click", show)
+
 
 function showComputersPick() {
 	computerPick.innerHTML = 'The computer picked ' + randomNumber;
