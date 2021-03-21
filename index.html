@@ -21,7 +21,7 @@
 </div>
 	<button class="hideShow" id="reloadButton">Play again!</button>
 </div>
-<div id="secondContent">
+<div class="secondContentClass" id="secondContent">
 	<p id="yourPick"></p>
 	<p id="output">Pick one!</p>
 	<p id="computerPick"></p>
@@ -31,8 +31,8 @@
 	<script type="text/javascript">
 	function reloadDiv() {
 		
-var originalState = $("#secondContent").clone();
-$("#secondContent").replaceWith(originalState.clone());
+var originalState = $(".secondContentClass").clone();
+$(".secondContentClass").replaceWith(originalState.clone());
 	}
 
 	document.getElementById('reloadButton').addEventListener("click",reloadDiv);
