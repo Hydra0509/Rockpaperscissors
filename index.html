@@ -30,6 +30,8 @@
 	
 	<script type="text/javascript">
 	function reloadDiv() {
+$('#secondContent').clone();
+$('#secondContent').remove();
 $('#secondContent').load(document.URL +  ' #secondContent');
 	}
 
