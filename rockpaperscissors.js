@@ -69,7 +69,7 @@ function ifElse1() {
 	output.innerHTML = 'You lost!'
 	randomNumber = 'Paper'
 	cpuGetsOne()
-} else {
+} else if {
 	output.innerHTML = 'You won!'
 	randomNumber = 'Scissors'
 	userGetsOne()
@@ -84,7 +84,7 @@ function ifElse2() {
 } else if (randomNumber == 1 && userPickedPaper) {
 	output.innerHTML = 'Draw!'
 	randomNumber = 'Paper'
-} else {
+} else if {
 	output.innerHTML = 'You lost!'
 	randomNumber = 'Scissors'
 	cpuGetsOne()
@@ -100,7 +100,7 @@ function ifElse3() {
 	output.innerHTML = 'You won!'
 	randomNumber = 'Paper'
 	userGetsOne();
-} else {
+} else if {
 	output.innerHTML = 'Draw!'
 	randomNumber = 'Scissors'
 }};
