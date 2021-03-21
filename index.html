@@ -30,10 +30,9 @@
 	
 	<script type="text/javascript">
 	function reloadDiv() {
-$('#secondContent').clone();
-$('#secondContent').remove();
-$('#secondContent').load(document.URL +  ' #secondContent');
-	}
+		
+var originalState = $("#secondContent").clone();
+$("#secondContent").replaceWith(originalState.clone());
 
 	document.getElementById('reloadButton').addEventListener("click",reloadDiv);
 		
