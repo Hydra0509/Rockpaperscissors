@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="rockpaperscissors.css">
+	<title>Rock,Paper,Scissors!</title>
+</head>
+<body>
+	<div>
+		<input id="DarkMode" type="image" name="Dark Mode" src="https://freedesignfile.com/upload/2017/08/moon-icon-vector.png" width="60px" height="60px" 
+		onclick="darkModeToggle()" title="BRAVO SIX GOING DARK">
+	</div>
+	<div class="scoreBoardDarkMode" id="scoreboard">
+		<p>Scoreboard</p>
+		<p>You:</p>
+		<p id="userScore">0</p>
+		<p>CPU:</p>
+		<p id="cpuScore">0</p>
+	</div>
+<div class="firstDarkMode" id="firstContent">
+	<h1>Play Rock,Paper,Scissors against the computer!</h1>
+	<div id="buttons">
+	<input id="rpsgif" type="image" name="RPS" src="rps.gif" width="400px" height="400px">
+	<input class="hideshow" id="rock" type="image" src="https://images-na.ssl-images-amazon.com/images/I/61m9jG%2Bjj-L._AC_SY355_.jpg" width="60px" height="60px" onclick="hide()">
+	<input class="hideshow" id="paper" type="image" src="http://1.bp.blogspot.com/-nYUIVaAhggE/T5cqsITQMbI/AAAAAAAAAN4/DpJeUNcz_jw/s1600/crumpled-paper-ball.jpg" width="60px" height="60px" onclick="hide()">
+	<input class="hideshow" id="scissors" type="image" src="https://www.ikea.com/ca/en/images/products/sy-scissors__0112301_pe263788_s5.jpg?f=s" width="60px" height="60px" onclick="hide()">
+</div>
+	<button id="reloadButton">Play again!</button>
+</div>
+<div class="secondDarkMode" id="secondContent">
+	<p id="yourPick"></p>
+	<p id="output">Pick one!</p>
+	<p id="computerPick"></p>
+</div>
+<script type="text/javascript" src="rockpaperscissors.js"></script>
+</body>
+</html>
