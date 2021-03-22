@@ -67,7 +67,7 @@ function ifElse1() {
 	cpuGetsOne();
 } else if (randomNumber == 2 && userPickedRock) {
 	output.innerHTML = 'You won!'
-	output.style.color = 'lightgreen'
+	output.style.color = 'green'
 	computerPick.innerHTML = 'The computer picked Scissors'
 	userGetsOne();
 }}
@@ -78,7 +78,7 @@ function ifElse2() {
 	if (randomNumber == 0 && userPickedPaper) {
 	output.innerHTML = 'You won!'
 	computerPick.innerHTML = 'The computer picked Rock'
-	output.style.color = 'lightgreen'
+	output.style.color = 'green'
 	userGetsOne()
 } else if (randomNumber == 1 && userPickedPaper) {
 	output.innerHTML = 'Draw!'
@@ -100,7 +100,7 @@ function ifElse3() {
 	 	cpuGetsOne();
 } else if (randomNumber == 1 && userPickedScissors) {
 	output.innerHTML = 'You won!'
-	output.style.color = 'lightgreen'
+	output.style.color = 'green'
 	computerPick.innerHTML = 'The computer picked Paper'
 	userGetsOne();
 } else if (randomNumber == 2 && userPickedScissors) {
