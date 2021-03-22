@@ -124,11 +124,21 @@ function cpuGetsOne() {
 function playAgain() {
 	yourPick.innerHTML = ""
 	output.innerHTML ="Pick one!"
-	output.style.color = "white"
+	output.style.color = colorSwitch;
 	computerPick.innerHTML = ""
 	document.getElementById('buttons').style.visibility = 'visible'
 	reloadButton.style.visibility = 'hidden'
 	}
+
+var colorSwitch = output.style.color;
+
+function switchColor() {
+	if (secondContentDarkMode) {
+		output.style.color = 'white' 
+	} else {
+		output.style.color = 'black'
+	}}
+
 
 reloadButton.addEventListener("click" , playAgain);
 
